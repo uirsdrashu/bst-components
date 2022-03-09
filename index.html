@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Font link -->
+
+    <!-- CSS links -->
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Boostrap</title>
+  </head>
+  <body>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+
+            <!--Carousel-->
+
+            <div id="slide-ex" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+              <!--Indicator-->
+
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#slide-ex" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#slide-ex" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#slide-ex" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+
+              <!--Inner-->
+
+              <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="5000">
+                  <img src="images/car1.jpg" class="d-block w-100" alt="car">
+                  <div class="carousel-caption">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="images/car2.jpg" class="d-block w-100" alt="car">
+                  <div class="carousel-caption">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                  <img src="images/car3.jpg" class="d-block w-100" alt="car">
+                  <div class="carousel-caption">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+
+              </div>
+
+              <!--Button-->
+  
+              <button class="carousel-control-prev" type="button" data-bs-target="#slide-ex" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#slide-ex" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+            
+
+            <!--Carousel-->
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2>Accordion Example</h2>
+
+            <!--faq-->
+
+            <div class="accordion" id="accorex1">
+              <!--Item 1-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="hone">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c1" aria-expanded="true" aria-controls="c1">
+                    What is Accordion Item?
+                  </button>
+                </h2>
+                <div id="c1" class="accordion-collapse collapse show" aria-labelledby="hone" data-bs-parent="#accorex1">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sequi amet unde molestiae voluptatum sapiente labore iste blanditiis possimus natus. Deserunt rem tempore natus ut maxime veritatis eius dolor similique. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, voluptatibus Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur velit ducimus culpa aperiam porro fugiat quos? Dolorum, quidem. Aperiam, consequatur!
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!--Item 2-->
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="htwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2" aria-expanded="false" aria-controls="c2">
+                    How Accordion Item  works in website
+                  </button>
+                </h2>
+                <div id="c2" class="accordion-collapse collapse" aria-labelledby="htwo" data-bs-parent="#accorex1">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+
+            <!--faq-->
+
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <br><br>
+
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Using Flush</h2>
+
+            <!--Faq-->
+
+            <div class="accordion accordion-flush" id="accorfex">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="fhone">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc1" aria-expanded="false" aria-controls="fc1">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="fc1" class="accordion-collapse collapse" aria-labelledby="fhone" data-bs-parent="#accorfex">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rerum quas animi suscipit libero commodi est ut dolore voluptate pariatur alias velit mollitia laudantium cupiditate, fugiat, esse iste? Totam, sunt.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="fhtwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc2" aria-expanded="false" aria-controls="fc2">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="fc2" class="accordion-collapse collapse" aria-labelledby="fhtwo" data-bs-parent="#accorfex">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam impedit dolores quod ut. Iure id beatae sequi inventore, quo nulla. Eligendi laudantium culpa corrupti quibusdam voluptatibus ea recusandae ratione veritatis natus, quae reiciendis iste impedit?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="fhthree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#fc3" aria-expanded="false" aria-controls="fc3">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="fc3" class="accordion-collapse collapse" aria-labelledby="fhthree" data-bs-parent="#accorfex">
+                  <div class="accordion-body">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis exercitationem error, doloremque officiis est saepe odit repellendus ullam? Molestias, consequatur dicta illo, repellendus cupiditate eos neque saepe, nemo illum repellat alias laboriosam quibusdam quae rem. Quae nam rem ullam facilis blanditiis soluta reiciendis illum ex!</p>
+                    
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+
+            <!--Faq-->
+
+
+          </div>
+
+          <div class="col-lg-6">
+            <h2>Always Open</h2>
+
+            <!--Faq-->
+
+            <div class="accordion" id="accor-open-ex">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="open-head-1">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#open-c1" aria-expanded="true" aria-controls="open-c1">
+                    What is it?
+                  </button>
+                </h2>
+                <div id="open-c1" class="accordion-collapse collapse show" aria-labelledby="open-head-1">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam dolor repudiandae quo vero ex eveniet quis corrupti amet sapiente animi ea nemo expedita, eius quae!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="open-head-2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#open-c2" aria-expanded="false" aria-controls="open-c2">
+                    How it works?
+                  </button>
+                </h2>
+                <div id="open-c2" class="accordion-collapse collapse" aria-labelledby="open-head-2">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ullam, pariatur modi facilis praesentium non sed quidem odit corporis nam ad molestias mollitia eligendi molestiae, laudantium perspiciatis enim ipsa eveniet?
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="open-head-3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#open-c3" aria-expanded="false" aria-controls="open-c3">
+                    Simply example:
+                  </button>
+                </h2>
+                <div id="open-c3" class="accordion-collapse collapse" aria-labelledby="open-head-3">
+                  <div class="accordion-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloribus placeat reiciendis a mollitia fugit qui odio labore in? Sed, repellat ex? Nobis, ad praesentium!
+                    </p>.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--Faq-->
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br>
+
+
+    <section>
+
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Collapse Example</h2>
+        <br>
+      
+            <a class="btn btn-success" data-bs-toggle="collapse" href="#coll-ex" role="button" aria-expanded="false" aria-controls="coll-ex">
+            Link with href
+            </a>
+
+            <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#coll-ex" aria-expanded="false" aria-controls="coll-ex">
+            Button with data-bs-target </button>
+
+            <div class="collapse" id="coll-ex">
+          
+            <div class="card card-body">
+             Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+            </div>
+
+            </div>
+      
+          </div>
+
+          <div class="col-lg-6">
+            <h2>Multiple Targets</h2>
+            <br>
+            <div>
+
+              <a class="btn btn-info" data-bs-toggle="collapse" href="#multi-coll-1" role="button" aria-expanded="false" aria-controls="multi-coll-1">Toggle first element</a>
+              <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target="#multi-coll-2" aria-expanded="false" aria-controls="multi-coll-2">Toggle second element</button>
+              <button class="btn btn-info" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multi-coll-1 multi-coll-2">Toggle both elements</button>
+
+              <div class="row">
+                <div class="col">
+                  <div class="collapse multi-collapse" id="multi-coll-1">
+                    <div class="card card-body">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus repellendus laudantium totam doloremque minima ut.
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="collapse multi-collapse" id="multi-coll-2">
+                    <div class="card card-body">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum dignissimos molestias earum! Asperiores velit facere iste cum culpa sequi recusandae repudiandae voluptatibus doloribus nesciunt aliquam, numquam illum magnam quis dicta?
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      
+      </div>
+
+    </section>
+
+    <br><br>
+
+    <section>
+      <div class="container">
+        <h2>Dropdown</h2>
+        <br>
+        <div class="row">
+
+          <div class="col-lg-2">
+
+            <h6>Dropdow button</h6>
+
+            <div class="dropdown">
+
+              <button class="btn btn-dark dropdown-toggle" type="button" id="drop-btn1" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown button
+              </button>
+
+              <ul class="dropdown-menu" aria-labelledby="drop-btn1">
+                <li><a class="dropdown-item" href="#">First One</a></li>
+                <li><a class="dropdown-item" href="#">Second One</a></li>
+                <li><a class="dropdown-item" href="#">Third One</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Fourth One</a></li>
+              </ul>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-2">
+
+          <h6>Sizing</h6>
+
+          <div class="btn-group">
+            
+            <button type="button" class="btn btn-success btn-lg">Big size</button>
+            <button type="button" class="btn btn-lg btn-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">First One</a></li>
+              <li><a class="dropdown-item" href="#">Second One</a></li>
+              <li><a class="dropdown-item" href="#">Third One</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Fourth One</a></li>
+            </ul>
+
+          </div>
+
+        </div>
+        <div class="col-lg-2">
+
+          <h6>Split Dropdown</h6>
+
+          <div class="btn-group">
+            
+            <button type="button" class="btn btn-success">Action</button>
+            <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+              <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">First One</a></li>
+              <li><a class="dropdown-item" href="#">Second One</a></li>
+              <li><a class="dropdown-item" href="#">Third One</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Fourth One</a></li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <br><br>
+
+    <section>
+      <div class="container">
+        <h2>Modal</h2>
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <h6>Static</h6>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#static-modal">
+              Static backdrop modal
+            </button>
+
+            <!-- Static Modal -->
+            <div class="modal fade" id="static-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="static-modal-label1" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="static-modal-label1">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim sed debitis, veniam ab quas facere, labore id dolore consequuntur minus mollitia distinctio maiores, quis tempore optio possimus reprehenderit neque voluptatum dolorum! Neque atque iste qui, ipsam officiis pariatur nobis quaerat exercitationem minima totam natus autem doloremque, libero dolorum officia beatae sint obcaecati voluptatem, modi reprehenderit earum? Repellat officia animi cumque?
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-warning">Understood</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <br><br>
+
+    <section>
+      <div class="container">
+        <!--Horizontal-->
+        <h2>Nav & tabs horizontal</h2>
+        <ul class="nav nav-pills mb-3" id="p-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="p-home-tab" data-bs-toggle="pill" data-bs-target="#p-home" type="button" role="tab" aria-controls="p-home" aria-selected="true">Home</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="p-pro-tab" data-bs-toggle="pill" data-bs-target="#p-profile" type="button" role="tab" aria-controls="p-profile" aria-selected="false">Profile</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="p-contact-tab" data-bs-toggle="pill" data-bs-target="#p-contact" type="button" role="tab" aria-controls="p-contact" aria-selected="false">Contact</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="p-tabContent">
+
+          <div class="tab-pane fade show active" id="p-home" role="tabpanel" aria-labelledby="p-home-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magni amet possimus ipsum deleniti sunt. Commodi iusto id eligendi quasi vel optio fugiat recusandae, unde aspernatur molestias tempora ab tenetur?</div>
+
+          <div class="tab-pane fade" id="p-profile" role="tabpanel" aria-labelledby="p-pro-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magni amet possimus ipsum deleniti sunt. Commodi iusto id eligendi quasi vel optio fugiat recusandae, unde aspernatur molestias tempora ab tenetur?</div>
+
+          <div class="tab-pane fade" id="p-contact" role="tabpanel" aria-labelledby="p-contact-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto magni amet possimus ipsum deleniti sunt. Commodi iusto id eligendi quasi vel optio fugiat recusandae, unde aspernatur molestias tempora ab tenetur?</div>
+
+        </div>
+      </div>
+    </section>
+    <br><br>
+    <section>
+      <div class="container">
+        <!--Vertical-->
+        <h2>Nav & tabs Vertical</h2>
+        
+        <div class="d-flex align-items-start">
+          <div class="nav flex-column nav-pills me-3" id="v-p-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="vp-home-tab" data-bs-toggle="pill" data-bs-target="#vp-home" type="button" role="tab" aria-controls="vp-home" aria-selected="true">Home</button>
+            <button class="nav-link" id="vp-pro-tab" data-bs-toggle="pill" data-bs-target="#vp-prof" type="button" role="tab" aria-controls="vp-prof" aria-selected="false">Profile</button>
+            <button class="nav-link" id="vp-msg-tab" data-bs-toggle="pill" data-bs-target="#vp-msg" type="button" role="tab" aria-controls="vp-msg" aria-selected="false">Messages</button>
+            <button class="nav-link" id="vp-sett-tab" data-bs-toggle="pill" data-bs-target="#vp-sett" type="button" role="tab" aria-controls="vp-sett" aria-selected="false">Settings</button>
+          </div>
+          <div class="tab-content" id="v-p-tabContent">
+            <div class="tab-pane fade show active" id="vp-home" role="tabpanel" aria-labelledby="vp-home-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sunt at rerum iusto, repudiandae obcaecati nam sequi soluta mollitia nesciunt.</div>
+            <div class="tab-pane fade" id="vp-prof" role="tabpanel" aria-labelledby="vp-pro-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sunt at rerum iusto, repudiandae obcaecati nam sequi soluta mollitia nesciunt.</div>
+            <div class="tab-pane fade" id="vp-msg" role="tabpanel" aria-labelledby="vp-msg-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sunt at rerum iusto, repudiandae obcaecati nam sequi soluta mollitia nesciunt.</div>
+            <div class="tab-pane fade" id="vp-sett" role="tabpanel" aria-labelledby="vp-sett-tab">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sunt at rerum iusto, repudiandae obcaecati nam sequi soluta mollitia nesciunt.</div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+    <br><br>
+    <section>
+      <div class="container">
+        <h2>Backdrop & tooltip</h2>
+        <button class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="0ff-cv-left">Enable backdrop (default)</button>
+      
+
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur non accusantium numquam minus at perspiciatis amet, eius id ex provident ab soluta consectetur temporibus! Non est soluta quibusdam odit autem.</p>
+        </div>
+      </div>
+    
+
+
+    <button class="btn btn-success" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic iste quisquam et maiores voluptate rem quaerat, tempora expedita dolores minima a facere reprehenderit tempore! Unde saepe esse doloremque neque in.
+      </div>
+    </div>
+    <button type="button" class="btn btn-dark" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+      Tooltip on bottom
+    </button>
+  </div>
+    </section>
+
+
+
+    <!-- JS links -->
+
+    <script src="js/popper.min.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
